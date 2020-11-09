@@ -1,0 +1,108 @@
+\documentclass[12pt]{article}
+\usepackage[french]{babel}
+\usepackage[utf8]{inputenc} % Required for inputting international characters
+\usepackage[T1]{fontenc} % Output font encoding for international characters
+\usepackage{textcomp}
+\usepackage{graphicx}
+\usepackage{mathpazo} % Palatino font
+\usepackage{amsmath}
+\usepackage{listings}
+\usepackage{subcaption}
+\usepackage{xcolor}
+\usepackage{lscape}
+\usepackage[onehalfspacing]{setspace}
+
+\usepackage{geometry}
+ \geometry{
+ a4paper,
+ left=35mm,
+ right=35mm,
+ top=40mm,
+ bottom=40mm,
+ }
+
+\begin{document}
+\begin{titlepage} % Suppresses displaying the page number on the title page and the subsequent page counts as page 1
+	\newcommand{\HRule}{\rule{\linewidth}{0.5mm}} % Defines a new command for horizontal lines, change thickness here
+	
+	\center % Centre everything on the page
+	
+	%------------------------------------------------
+	%	Headings
+	%------------------------------------------------
+	
+	\textsc{\LARGE Ecole Centrale de Lille}\\[1cm] % Main heading such as the name of your university/college
+	
+	
+    \begin{figure}[h!]
+        \centering
+        \includegraphics[width=0.6\textwidth]{logo_centrale.png}
+        \label{LogoCentrale}
+    \end{figure}
+    
+    \vfill
+	
+	%------------------------------------------------
+	%	Title
+	%------------------------------------------------
+	
+	\HRule\\[0.4cm]
+	
+	{\huge\bfseries Note de problématique: CIFRE vs non-CIFRE}\\[0.4cm] % Title of your document
+	
+	\HRule\\[1.0cm]
+	
+	%------------------------------------------------
+	%	Author(s)
+	%------------------------------------------------
+
+	\begin{minipage}{0.4\textwidth}
+		\begin{flushleft}
+			\large
+			\textit{Auteurs}\\
+			E. \textsc{Le Guillou} \\
+			I. \textsc{Thomas}\\
+			A. \textsc{Rahier}\\
+			M. \textsc{Lanvin}\\
+			C. \textsc{Vo}
+		\end{flushleft}
+	\end{minipage}
+	~
+	\begin{minipage}{0.4\textwidth}
+		\begin{flushright}
+			\large
+			\textit{Professeurs}\\
+			J. P. \textsc{Richard}\\ % Supervisor's name
+			C. \textsc{Belart} \\
+			C. \textsc{Davy}
+		\end{flushright}
+	\end{minipage}
+
+	\vfill
+	
+	\begin{center}
+        %Word count : 4960
+    \end{center}
+	%------------------------------------------------
+	%	Date
+	%------------------------------------------------
+	
+	\vfill\vfill % Position the date 3/4 down the remaining page
+	
+	{\large\today} % Date, change the \today to a set date if you want to be precise
+
+	
+	
+	\vfill % Push the date up 1/4 of the remaining page
+	
+\end{titlepage}
+
+\paragraph{Question initiale}
+
+\paragraph{Question retenue}
+
+\paragraph{Recherche documentaire}
+
+\paragraph{Préparation des entretiens}
+
+\end{document}
